@@ -94,6 +94,16 @@ a{
   color: rgb(0, 238, 255);
 }
 
+article img{
+  width: 55%;
+}
+
+img {
+  padding: 50px;
+  width: 55%;
+
+}
+
 @media screen and (max-width: 480px){
   nav li{
     width: 100%;
@@ -106,6 +116,7 @@ a{
   }
 }
 
+
 @media screen and (max-width:1064px){
   nav li, nav a, section{
     float: none;
@@ -116,14 +127,4 @@ a{
   img{
     width: 100%;
   }
-}
-
-article img{
-  width: 55%;
-}
-
-img {
-  padding: 50px;
-  width: 55%;
-
 }
