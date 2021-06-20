@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body{
+  width: 100%;
+  height: 100vh;
+  background-image: url('../img/teste.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 16px;
+  margin: 0;
+}
+
+
+nav ul{
+  width: 100%;
+  list-style-type: none;
+  background-color: rgb(10, 75, 80);
+  overflow: hidden;
+  margin: 0;
+  padding: 0px;
+
+}
+
+nav a{
+  color: white;
+  text-decoration: none;
+  padding: 16px;
+  display: block;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+nav li{
+  float:left;
+}
+
+
+nav a:hover{
+  background-color: rgb(6, 255, 255);
+  color: rgb(0, 0, 0);
+
+}
+
+
+header{
+  background-color: rgb(118, 143, 89);
+  text-align: center;
+  padding: 30px;
+}
+
+header h1{
+  font-family:'Courier New', Courier, monospace;
+  color: ghostwhite;
+  font-size: 35px;
+
+}
+
+section{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background: #00000094;
+  background-size: cover;
+  background-position: center;
+  color:ghostwhite;
+  padding: 10px;
+  margin: 0;
+}
+
+
+.button {
+  background-color: #0e8da3; /* Green */
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.button:hover {
+  background-color: #07f7e3; /* Green */
+  color: rgb(0, 0, 0);
+}
+
+.jogo{
+  background: white;
+  border: none;
+}
+
+a{
+  color: rgb(0, 238, 255);
+}
+
+@media screen and (max-width: 480px){
+  nav li{
+    width: 100%;
+    float: none;
+    width: auto;
+    text-align: center;
+  }
+  img{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:1064px){
+  nav li, nav a, section{
+    float: none;
+    width: auto;
+    text-align: center;
+    font-size: x-large;
+  }
+  img{
+    width: 100%;
+  }
+}
+
+article img{
+  width: 65%;
+}
+
+img {
+  padding: 35px;
+  width: 45%;
+
+}
